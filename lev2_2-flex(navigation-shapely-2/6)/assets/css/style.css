@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Die verwendete Schriftart: Raleway
+Die Farbe des Button “Read more” ist: #745cf9
+Die Farbe des Button:hover “Read more” ist: #5234f9
+Der Link des Fotos: */
+
+header{
+    /* height: 76px; */
+    border-top: 2px solid;
+    border-bottom: 1px solid rgb(168, 164, 164);
+    position: fixed;
+    width: 100%;
+}
+
+nav a:nth-of-type(1){
+    color: #666;
+    text-decoration: none;
+}
+
+nav a:nth-of-type(1):hover{
+    color:#333;
+}
+
+header nav ul li a:nth-of-type(1n + 1){
+    color: #333; 
+}
+
+header nav ul li a:nth-of-type(1n + 1){
+    color: #337ab7;
+    text-decoration: none;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 76px;
+}
+
+header nav ul{
+    display: flex;
+    /* gap: 1rem; */
+    list-style: none;
+}
+
+header nav ul li{
+    margin-right: 15px;
+}

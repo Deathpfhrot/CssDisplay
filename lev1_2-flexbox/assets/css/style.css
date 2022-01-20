@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/*----lev1_2: Flexbox--------*/
+
+body{
+    background: url(../img/basketball.jpg) no-repeat center/cover;
+    height: 100vh;
+}
+
+header{
+    background-color: rgb(77, 76, 76, 0.9);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    color: white;
+    margin-left: 2rem;
+}
+
+
+ul{
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+    margin-right: 4rem;
+}
+
+ul>li>a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}

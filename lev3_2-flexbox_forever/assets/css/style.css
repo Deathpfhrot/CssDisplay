@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Lato', sans-serif;
+    color: rgba(0,0,0,.8);
+}
+
+/* Die verwendete Schriftart: Lato
+Die background-color ist #D9E8E5, der graue Text ist rgba(0,0,0,.8)
+Nutze margin: auto um die letzten beiden Menüpunkte an den rechten Rand zu positionieren
+Nutze flex-wrap: wrap für die Bildergalerie. */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vh;
+}
+
+header div:nth-of-type(1){
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+
+
+header div:nth-of-type(2){
+    text-align: end;
+}
+
+main{
+    background-color: #D9E8E5;
+    height: 95vh;
+}
+
+main h2{
+    margin-left: 30rem;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5% 15%;
+}
+figure img{
+    padding: 1rem;
+}

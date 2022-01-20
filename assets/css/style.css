@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/*--gap: 10px; funktionier nur bei display-flex elementen erzeugt einen spalt rundherum*/
+
+h1{
+    display: flex;
+    /* ist die horizontale ausrichtung */
+    justify-content: center;
+    flex-direction: column;
+    /* ist die vertical ausrichtung */
+    align-items: center;
+    flex-wrap: wrap;
+    /* gap kann man nur mit display:flex verwenden*/
+    gap: 10px;
+}
