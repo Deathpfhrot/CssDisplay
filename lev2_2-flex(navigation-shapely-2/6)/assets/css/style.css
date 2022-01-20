@@ -14,27 +14,31 @@ Die Farbe des Button:hover “Read more” ist: #5234f9
 Der Link des Fotos: */
 
 header{
-    /* height: 76px; */
+    height: 10vh;
     border-top: 2px solid;
     border-bottom: 1px solid rgb(168, 164, 164);
     position: fixed;
     width: 100%;
+    background-color: white;
 }
 
-nav a:nth-of-type(1){
+.a1 {
     color: #666;
     text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
-nav a:nth-of-type(1):hover{
+header nav a:nth-of-type(1):hover{
     color:#333;
 }
 
 header nav ul li a:nth-of-type(1n + 1){
     color: #333; 
+    text-decoration: none;
 }
 
-header nav ul li a:nth-of-type(1n + 1){
+header nav ul li a:nth-of-type(1n + 1):hover{
     color: #337ab7;
     text-decoration: none;
 
@@ -42,17 +46,66 @@ header nav ul li a:nth-of-type(1n + 1){
 
 nav{
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
-    height: 76px;
+    align-items: center;
+    height: 10vh;
 }
 
 header nav ul{
     display: flex;
-    /* gap: 1rem; */
+    justify-content: space-around;
     list-style: none;
+    width: 40%;
 }
 
-header nav ul li{
-    margin-right: 15px;
+/*-----------main--------------*/
+main{
+    height: 100vh;
+}
+main{
+    background: url(../img/see.jpeg) no-repeat center/cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+main section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+}
+
+main section h1{
+    font-size: 5rem;
+}
+
+main section p{
+    padding: 3rem 0 2.5rem 0;
+    font-weight: bold;
+}
+
+main section article a{
+    padding: 1rem 3rem;
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+}
+
+main section article a:nth-of-type(1){
+    border: 2px solid white;
+    background: transparent;
+    font-weight: bold;
+}
+
+main section article a:nth-of-type(2){
+    background-color: #745BF7;
+    border: 2px solid #745BF7;
+    padding: 1rem 4rem;
+    font-weight: bold;
+
+}
+section:nth-of-type(2){
+    height: 100vh;
 }
