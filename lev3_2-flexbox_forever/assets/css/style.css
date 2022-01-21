@@ -34,7 +34,7 @@ nav ul{
     display: flex;
     gap: 40px;
     list-style: none;
-    margin-right: 65rem;
+    margin-right: 30rem;
 }
 
 nav ul a{
@@ -66,9 +66,10 @@ main{
 
 main section{
     margin: 0 auto;
-    width: 70%;
-    /* display: flex; */
-    /* justify-content: center; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 article{
@@ -79,7 +80,7 @@ article{
 
 h2{
     padding-top: 5rem;
-    margin-left: 9rem;
+    margin-left: 3rem;
 }
 
 article div{
