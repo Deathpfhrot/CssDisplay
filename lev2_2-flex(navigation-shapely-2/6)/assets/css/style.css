@@ -175,7 +175,6 @@ section:nth-of-type(3){
 
 section:nth-of-type(3) article:last-child img{
     width: 800px;
-    margin-right: 15rem;
 }
 
 section:nth-of-type(3) article:first-child{
