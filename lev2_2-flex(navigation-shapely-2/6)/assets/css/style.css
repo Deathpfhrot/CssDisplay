@@ -59,6 +59,9 @@ header nav ul{
 }
 
 /*-----------main--------------*/
+
+/*Section-1-*/
+
 main{
     height: 100vh;
 }
@@ -105,7 +108,97 @@ main section article a:nth-of-type(2){
     padding: 1rem 4rem;
     font-weight: bold;
 
-}
+}  
+
+/*----------------CSS Vertiefung lev3_1: grid Shapely-4---------*/
+
+/* 
+Die Farbe der Buttons “Read more” ist: #745cf9
+Die Hover-Farbe der Buttons “Read more” ist: #5234f9
+Die Farbe der <p> ist: #8c979e
+Die Farbe der <h2> ist: #0e1015  
+Die Links der Fotos: 
+*/
+/* 
+https://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/macbook-preview-flexible.png
+https://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/flexible-portfolio.png 
+*/
+
+/*Section-2-*/
+
 section:nth-of-type(2){
-    height: 100vh;
+    color: black;
+    height: 85vh;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+section:nth-of-type(2) article:first-child img{
+    width: 800px;
+}
+
+section:nth-of-type(2) article:last-child{
+    margin-left: 10rem;
+    margin-bottom: 5rem;
+    width: 25%;
+}
+section:nth-of-type(2) article:last-child h2{
+    font-size: 2rem;
+    color: #0e1015;
+}
+
+section:nth-of-type(2) article:last-child p{
+    line-height: 2rem;
+    color: #8c979e;
+}
+
+section:nth-of-type(2) article:last-child a{
+    color: white;
+    background-color: #745BF7;
+    border: 2px solid #745BF7;
+    padding: 1rem 4rem;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+/*Section-3-*/
+
+section:nth-of-type(3){
+    color: black;
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #F5F5F5;
+}
+
+section:nth-of-type(3) article:last-child img{
+    width: 800px;
+    margin-right: 15rem;
+}
+
+section:nth-of-type(3) article:first-child{
+    margin-left: 10rem;
+    margin-bottom: 5rem;
+    width: 25%;
+}
+
+section:nth-of-type(3) article:first-child h2{
+    font-size: 2rem;
+    color: #0e1015;
+}
+
+section:nth-of-type(3) article:first-child p{
+    line-height: 2rem;
+    color: #8c979e;
+}
+
+section:nth-of-type(3) article:first-child a{
+    color: white;
+    background-color: #745BF7;
+    border: 2px solid #745BF7;
+    padding: 1rem 4rem;
+    font-weight: bolder;
+    font-size: 13px;
 }

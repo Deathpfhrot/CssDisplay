@@ -35,6 +35,7 @@ nav ul{
     gap: 40px;
     list-style: none;
     margin-right: 30rem;
+    /* flex: auto; */
 }
 
 nav ul a{
@@ -65,12 +66,12 @@ main{
 }
 
 main section{
-    margin: 0 auto;
     width: 80%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    margin-left: 10%;
 }
+
 
 article{
     display: flex;
@@ -83,11 +84,10 @@ h2{
     margin-left: 3rem;
 }
 
-article div{
+main section article div{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    margin: 10px;
 }
 
 .div1{
